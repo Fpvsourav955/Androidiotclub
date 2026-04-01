@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="18dp"
+    card_view:cardElevation="10dp"
+    card_view:layout_anchorGravity="center"
+    card_view:cardUseCompatPadding="true"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:background="@android:color/transparent" >
+
+        <!-- Image (poster artwork) -->
+        <ImageView
+            android:id="@+id/dialogPosterImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:fontFamily="@font/dmsans_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/avyakt_4_0"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:fontFamily="@font/dmsans_regular"
+            android:id="@+id/dialogDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_presented_by_aiot_club"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#666666"/>
+
+
+
+        <!-- Buttons row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <TextView
+                android:fontFamily="@font/dmsans_regular"
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:fontFamily="@font/dmsans_regular"
+                android:id="@+id/btnRegister"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="@color/tertiaryColor"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

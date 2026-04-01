@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/babypowder"
+    tools:context=".TopFragment">
+    <RelativeLayout
+
+
+        android:id="@+id/chat_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".YourChatFragment">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerMessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layoutInput"
+            android:layout_alignParentTop="true"
+
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:descendantFocusability="afterDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_margin="12dp"
+            android:id="@+id/layoutInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+
+           >
+
+
+            <EditText
+                android:id="@+id/editTextMessage"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/write_answer_background"
+                android:gravity="start|center"
+                android:hint="@string/type_a_message"
+                android:imeOptions="actionSend"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColorHint="#757575"
+                tools:ignore="VisualLintTextFieldSize" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/sendAnswerButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end|center"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/send_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="12dp"
+                android:src="@drawable/send"
+                android:tint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

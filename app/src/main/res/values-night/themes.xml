@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AIoTClub" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:colorPrimaryDark">@color/your_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/your_status_bar_color</item>
+        <item name="colorControlActivated">@color/Teal</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your dark theme here. -->
+
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <!-- UCrop Theme -->
+    <style name="Theme.UCrop" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#FF000000</item> <!-- Or transparent -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+    <style name="UCropToolbarTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Optional color customization -->
+
+        <item name="android:statusBarColor">#2D2C2C</item>
+
+        <!-- ✅ Add toolbar padding to avoid status bar overlap -->
+        <item name="android:layout_marginTop">6dp</item> <!-- for safe top space -->
+    </style>
+
+
+
+</resources>

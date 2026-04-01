@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_the_workshop">About the Workshop</string>
+    <string name="what_you_ll_gain_practical_iot_skills_android_integration_knowledge_and_a_complete_project_for_your_portfolio">What you\'ll gain: Practical IoT skills, Android integration knowledge, and a complete project for your portfolio.</string>
+    <string name="workshop_schedule">Workshop Schedule</string>
+    <string name="day_1_noctober_22_2025">Day 1\nOctober 22, 2025</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="_6_30pm_8_30pm">6:30PM - 8:30PM</string>
+    <string name="topics_covered">Topics Covered:</string>
+    <string name="introduction_to_internet_of_things_n_hardware_overview_arduino_sensors_n_introduction_to_arduino_uno_n_led_blink_program_explanation_and_demonstration_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Introduction to Internet of Things\n• Hardware Overview(Arduino, Sensors)\n• Introduction to Arduino UNO\n• LED blink program explanation and demonstration\n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="day_2_noctober_23_2025">Day 2\nOctober 23, 2025</string>
+    <string name="hands_on_arduino_projects">Hands-on Arduino Projects</string>
+    <string name="introduction_to_esp32_esp8266_n_wi_fi_microcontrollers_and_iot_architecture_n_iot_cloud_and_dashboard_n_introduction_to_arduino_iot_cloud_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Introduction to ESP32/ESP8266\n• Wi-Fi microcontrollers and IoT architecture\n• IoT Cloud and Dashboard\n• Introduction to Arduino IoT Cloud \n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="advanced_iot_amp_cloud_integration"><![CDATA[Advanced IoT & Cloud Integration]]></string>
+    <string name="join_us_for_an_intensive_3_day_iot_workshop_where_you_ll_learn_to_build_smart_devices_and_integrate_them_with_android_applications_this_hands_on_workshop_covers_everything_from_hardware_basics_to_cloud_deployment">Join us for an intensive 3-day IoT workshop where you\'ll learn to build smart devices and integrate them with Android applications. This hands-on workshop covers everything from hardware basics to cloud deployment.</string>
+    <string name="blink_5_leds_serially_n_distance_measurement_using_ultrasonic_sensor_hc_sr04_n_temperature_amp_humidity_sensor_dht11_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Blink 5 LEDs Serially\n• Distance Measurement Using Ultrasonic Sensor (HC-SR04)\n• Temperature & Humidity Sensor (DHT11)\n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="day_3_noctober_24_2025">Day 3\nOctober 24, 2025</string>
+    <string name="iot_workshop_series">IoT Workshop Series</string>
+    <string name="iot_development_workshop">IOT Development Workshop</string>
+    <string name="learn_to_build_connected_devices_with_nandroid_integration">Learn to build connected devices with\nAndroid integration</string>
+    <string name="date">Date</string>
+    <string name="oct_22_24_2025">Oct 22-24, 2025</string>
+    <string name="duration">Duration</string>
+    <string name="full_name_label">Full Name <font color="#FF0000">*</font></string>
+    <string name="rollnumber">Roll No <font color="#FF0000">*</font></string>
+    <string name="emailid">Email <font color="#FF0000">*</font></string>
+    <string name="attendancedays">Days Attended <font color="#FF0000">*</font></string>
+    <string name="overallrating">Overall Workshop Rating <font color="#FF0000">*</font></string>
+    <string name="_3_days">3 Days</string>
+    <string name="venue">Venue</string>
+    <string name="mechanical_building">Mechanical Building</string>
+    <string name="_250_students">250 Students</string>
+    <string name="capacity">Capacity</string>
+    <string name="contact_information_n_nworkshop_coordinator_nclub_leader_amp_supervisor_n_nfor_query_n9556775778_sourav_kumar_pati"><![CDATA[Contact information\n\nWorkshop Coordinator \nClub Leader & Supervisor\n\nFor Query \n9556775778(Sourav Kumar Pati)]]></string>
+    <string name="what_to_bring_n_n_laptop_with_arduino_ide_installed_n_usb_cable_for_device_testing_n_notebook_and_pen_for_notes_n_enthusiasm_to_learn">What to Bring\n \n✓ Laptop with Arduino IDE installed\n✓ USB Cable for device testing\n✓ Notebook and pen for notes\n✓ Enthusiasm to learn!</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="workshop_feedback">Workshop Feedback</string>
+    <string name="help_us_improve_by_sharing_your_experience">Help us improve by sharing your experience</string>
+    <string name="enter_your_full_name">Enter Your full name</string>
+    <string name="enter_your_rollno">Enter Your RollNo.</string>
+    <string name="how_would_you_rate_the_content_quality">How would you rate the content quality?</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="average">Average</string>
+    <string name="poor">Poor</string>
+    <string name="how_would_you_rate_the_instructor">How would you rate the instructor?</string>
+    <string name="how_would_you_rate_the_venue_facilities">How would you rate the venue facilities?</string>
+    <string name="which_day_did_you_find_most_valuable">Which day did you find most valuable?</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_2">Day 2</string>
+    <string name="day_3">Day 3</string>
+    <string name="would_you_recommend_this_workshop_to_others">Would you recommend this workshop to others?</string>
+    <string name="yes_definitely">Yes, definitely</string>
+    <string name="maybe">Maybe</string>
+    <string name="no">No</string>
+    <string name="suggestions_for_improvement">Suggestions for Improvement</string>
+    <string name="type_your_suggestions_here">Type your suggestions here</string>
+</resources>

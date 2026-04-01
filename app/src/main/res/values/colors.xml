@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="ShadoColor">#2E2E2E</color>
+    <color name="circlecolor">#fff</color>
+    <color name="primaryColor">#78CDD7</color>
+    <color name="secondaryColor">#44A1A0</color>
+    <color name="tertiaryColor">#247B7B</color>
+    <color name="babypowder">#FFFFFA</color>
+    <color name="current">#0D5C63</color>
+    <color name="verdigris">#44A1A0</color>
+    <color name="Tiffantblue">#78CDD7</color>
+    <color name="Teal">#247B7B</color>
+    <color name="iconColor">#0D5C63</color> <!-- Icon Color -->
+    <color name="rippleColor">#78CDD7</color> <!-- Ripple (Click Effect) -->
+    <color name="your_status_bar_color">#247B7B</color>
+<color name="ucrop_toolbar_widget_color">#FFFFFFFF</color>
+<color name="ucrop_toolbar_color">#FF000000</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="sky_blue">#03A9F4</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="linkedin_blue">#0077B5</color>
+    <style name="WhiteNavigationIcon">
+        <item name="android:tint">@android:color/white</item>
+
+    </style>
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item> <!-- For circular image -->
+    </style>
+    <style name="BottomNavActiveIndicator" parent="">
+        <item name="android:background">@drawable/nav_item_selected_background</item>
+        <item name="android:width">50dp</item>
+        <item name="android:height">50dp</item>
+        <item name="android:insetTop">5dp</item>
+        <item name="android:insetBottom">5dp</item>
+    </style>
+    <style name="ImageRoundedTop">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="BottomNavTextActive" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/dmsans_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item> <!-- or italic, normal -->
+    </style>
+
+    <style name="BottomNavTextInactive" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/dmsans_light</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+
+
+</resources>
+
+

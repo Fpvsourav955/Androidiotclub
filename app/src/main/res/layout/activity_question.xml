@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/babypowder"
+android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="center"
+            android:background="#247B7B"
+            android:gravity="start">
+
+            <ImageView
+                android:id="@+id/devback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@string/back"
+                android:padding="20dp"
+                app:srcCompat="@drawable/back"
+                app:tint="@android:color/white" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:layout_marginStart="257dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_toEndOf="@+id/devback"
+                android:fontFamily="@font/dmsans_light"
+                android:gravity="center"
+                android:text="@string/ask_question"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="20dp"
+
+                android:importantForAccessibility="no"
+                android:src="@drawable/icons8menu100"
+                app:tint="@color/white" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="@font/dmsans_medium"
+            android:text="@string/question_should_be_related_to_android_and_internet_of_things_and_technical_things"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/questionInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="start|top"
+            android:importantForAutofill="no"
+            android:scrollbars="vertical"
+            android:hint="@string/write_your_question_here"
+            android:inputType="textMultiLine"
+            android:padding="16dp"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sendButton"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/question_button_background"
+            android:text="SEND"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

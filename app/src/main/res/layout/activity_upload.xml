@@ -1,0 +1,74 @@
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="16dp"
+     android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     tools:context=".UploadActivity"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/uploadPreviewImage"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/darker_gray"
+            android:scaleType="fitCenter" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_green"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="@string/enter_details"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:maxLines="20"
+            android:padding="16dp"
+            android:scrollbars="vertical"
+
+            android:textColor="@color/babypowder"
+            android:textColorHint="#ffffff"
+            android:textSize="16sp"
+
+            tools:ignore="RtlSymmetry,TextFields,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadTags"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:autofillHints=""
+            android:background="@drawable/edittext_green"
+            android:ems="10"
+            android:hint="@string/enter_tags_comma_separated"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="16dp"
+            android:background="@drawable/login_background"
+            android:id="@+id/uploadButton"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload" />
+
+    </LinearLayout>
+<!--    <ImageView-->
+<!--        android:layout_marginTop="400dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/aiotclubimage"/>-->

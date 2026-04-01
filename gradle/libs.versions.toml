@@ -1,0 +1,84 @@
+[versions]
+agp = "9.0.1"
+androidSpinkit = "1.4.0"
+appUpdate = "2.1.0"
+circleimageview = "3.1.0"
+compiler = "4.15.1"
+constraintlayoutVersion = "2.0.4"
+firebaseAppcheckDebug = "18.0.0"
+firebaseBom = "33.9.0"
+firebaseFirestore = "24.7.0"
+glide = "4.15.1"
+glideVersion = "4.16.0"
+googleAuthLibraryOauth2Https = "1.19.0"
+htextviewRainbow = "0.1.6"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+kotlinStdlibJdk7 = "2.2.0"
+lottie = "6.0.0"
+material = "1.12.0"
+activity = "1.10.0"
+constraintlayout = "2.2.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.2.0"
+firebaseDatabase = "21.0.0"
+meowBottomNavigationJava = "1.2.0"
+picasso = "2.8"
+playServicesAuth = "21.3.0"
+firebaseStorage = "21.0.1"
+roundedimageview = "2.3.0"
+shimmer = "0.1.0"
+ucrop = "2.2.10"
+viewpager2 = "1.1.0"
+androidxConstraintlayout = "2.2.1"
+impress = "0.0.3"
+drawerlayout = "1.2.0"
+firebaseInappmessagingDisplay = "21.0.2"
+firebaseMessaging = "24.1.1"
+preference = "1.2.0"
+
+[libraries]
+android-spinkit = { module = "com.github.ybq:Android-SpinKit", version.ref = "androidSpinkit" }
+app-update = { module = "com.google.android.play:app-update", version.ref = "appUpdate" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+constraintlayout-v204 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayoutVersion" }
+firebase-appcheck-debug = { module = "com.google.firebase:firebase-appcheck-debug", version.ref = "firebaseAppcheckDebug" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+glide-v4160 = { module = "com.github.bumptech.glide:glide", version.ref = "glideVersion" }
+google-auth-library-oauth2-https = { module = "com.google.auth:google-auth-library-oauth2-https", version.ref = "googleAuthLibraryOauth2Https" }
+htextview-rainbow = { module = "com.hanks:htextview-rainbow", version.ref = "htextviewRainbow" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlin-stdlib-jdk7 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlinStdlibJdk7" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+meow-bottom-navigation-java = { module = "com.etebarian:meow-bottom-navigation-java", version.ref = "meowBottomNavigationJava" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
+viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidxConstraintlayout" }
+impress = { group = "com.google.ar", name = "impress", version.ref = "impress" }
+androidx-drawerlayout = { group = "androidx.drawerlayout", name = "drawerlayout", version.ref = "drawerlayout" }
+firebase-inappmessaging-display = { group = "com.google.firebase", name = "firebase-inappmessaging-display", version.ref = "firebaseInappmessagingDisplay" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+androidx-preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

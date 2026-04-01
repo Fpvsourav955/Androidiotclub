@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">AIoT Club</string>
+    <string name="web_client_id">1083770407684-q3rlg6j6jmkohrkds1c8tqjp1lplfq0f.apps.googleusercontent.com</string>
+    <string name="welcome">Welcome,</string>
+    <string name="login_page">LogIn Page!</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="navigation_drawer_open">Open Navigation</string>
+    <string name="navigation_drawer_close">Close Navigation</string>
+    <string name="full_name_label">Full Name <font color="#FF0000">*</font></string>
+    <string name="rollnumber">Roll No <font color="#FF0000">*</font></string>
+    <string name="emailid">Email <font color="#FF0000">*</font></string>
+    <string name="attendancedays">Days Attended <font color="#FF0000">*</font></string>
+    <string name="overallrating">Overall Workshop Rating <font color="#FF0000">*</font></string>
+
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="repassword">RePassword</string>
+    <string name="already_have_an_account">Already have an Account</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">back</string>
+    <string name="developers">Developers</string>
+    <string name="club_news">CLUB NEWS:</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="view">View</string>
+    <string name="featured_content">Featured Content</string>
+    <string name="question_should_be_related_to_android_and_internet_of_things_and_technical_things">Question Should be related To Android And Internet Of Things and Technical Things :</string>
+    <string-array name="state_array">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="news_updates">News Updates</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload">Upload</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="enter_news_title">Enter News Title</string>
+    <string name="android_lead">Android Lead</string>
+    <string name="ui_ux_lead">UI/UX Lead</string>
+    <string name="link">link</string>
+    <string name="sourav_kumar_pati">Sourav Kumar Pati</string>
+    <string name="anshuman_mahanta">Anshuman Mahanta</string>
+    <string name="articles">Articles</string>
+    <string name="article1">TODO</string>
+    <string name="article_title">Article Title</string>
+    <string name="one_line_description_of_the_article">One Line Description Of the Article</string>
+    <string name="dd_mm_yyyy">DD / MM / YYYY</string>
+    <string name="description11">description11</string>
+    <string name="imageburr">imageburr</string>
+    <string name="artcicleiamge">artcicleiamge</string>
+    <string name="meet_our_faculity">Meet Our Faculity</string>
+    <string name="guiding_the_us_with_experience_and_knowledge">Guiding the us with experience and knowledge</string>
+    <string name="mr_professor">Mr.Professor</string>
+    <string name="team_lead_iot_professor">Team Lead | IOT Professor</string>
+    <string name="faculty">Faculty</string>
+    <string name="hi_user">Hi, User</string>
+    <string name="reset_account">Reset Account</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="club_members">Club Members</string>
+    <string name="news">News</string>
+    <string name="hello">Hello</string>
+    <string name="prashant_kadam">Prashant Kadam</string>
+    <string name="paragraph_writing_involves_organizing_a_group_of_related_sentences_to_develop_a_single_idea_or_point_a_paragraph_typically_consists_of_a_topic_sentence_supporting_sentences_and_a_concluding_sentence_effective_paragraph_writing_focuses_on_clarity_coherence_and_unity_ensuring_that_each_sentence_logically_contributes_to_the_overall_meaning_here_s_a_more_detailed_breakdown_structure_topic_sentence_introduces_the_main_idea_or_point_of_the_paragraph_supporting_sentences_provide_details_examples_explanations_or_evidence_that_support_the_topic_sentence_concluding_sentence_summarizes_the_main_point_provides_a_transition_to_the_next_paragraph_or_offers_a_final_thought_key_elements_of_effective_paragraph_writing_clarity_use_simple_language_and_avoid_jargon_or_ambiguity_coherence_ensure_a_smooth_flow_of_ideas_between_sentences_often_using_transition_words_unity_each_sentence_should_directly_relate_to_the_main_topic_and_contribute_to_the_paragraph_s_overall_meaning_development_provide_sufficient_details_and_examples_to_support_your_claims_types_of_paragraphs_expository_explains_a_topic_or_process_descriptive_creates_a_vivid_picture_of_a">Paragraph writing involves organizing a group of related sentences to develop a single idea or point. A paragraph typically consists of a topic sentence, supporting sentences, and a concluding sentence. Effective paragraph writing focuses on clarity, coherence, and unity, ensuring that each sentence logically contributes to the overall meaning. Here\'s a more detailed breakdown: Structure: Topic Sentence: Introduces the main idea or point of the paragraph. Supporting Sentences: Provide details, examples, explanations, or evidence that support the topic sentence. Concluding Sentence: Summarizes the main point, provides a transition to the next paragraph, or offers a final thought. Key Elements of Effective Paragraph Writing: Clarity: Use simple language and avoid jargon or ambiguity. Coherence: Ensure a smooth flow of ideas between sentences, often using transition words. Unity: Each sentence should directly relate to the main topic and contribute to the paragraph\'s overall meaning. Development: Provide sufficient details and examples to support your claims. Types of Paragraphs: Expository: Explains a topic or process. Descriptive: Creates a vivid picture of a</string>
+    <string name="no_internet_connection">No Internet Connection!!</string>
+    <string name="retry">Retry</string>
+    <string name="ask_question">Ask Question</string>
+    <string name="write_your_question_here">Write your Question here</string>
+    <string name="answers">Answers</string>
+    <string name="what_is_the_full_from_of_android_iot_by_the_name_of_andrew_what_was_taht">What is the Full from Of Android Iot By the name of andrew what was taht</string>
+    <string name="user_name">User Name</string>
+    <string name="_2_min_ago">2 min ago</string>
+    <string name="write_your_answer_here">Write your answer here</string>
+    <string name="reply">Reply</string>
+    <string name="_12_may_2035_12_32pm">12 may 2035 12:32pm</string>
+    <string name="the_answer_ofg_the_question_is_internet_of_things_so_thadddddt">The answer ofg the question is internet of things so thadddddt</string>
+    <string name="like">Like</string>
+    <string name="_0">0</string>
+    <string name="answer_should_be_informative_relevant_and_helpful">Answer should be informative, relevant and helpful.</string>
+    <string name="send">SEND</string>
+    <string name="report_bugs">Report Bugs</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_problem">Your Problem</string>
+    <string name="upload_screensort">Upload Screensort:</string>
+    <string name="send_message">Send Message</string>
+    <string name="your_email">Your Email</string>
+    <string name="reenter_your_password">ReEnter Your Password</string>
+    <string name="tech">Tech</string>
+    <string name="research">Research</string>
+    <string name="iot">IOT</string>
+    <string name="android">Android</string>
+    <string name="what_you_should_know_about_technology">What you should know about Technology</string>
+    <string name="jenny_wilson">Jenny Wilson</string>
+    <string name="_7_minutes">• 7 Minutes</string>
+    <string name="loading">Loading...</string>
+    <string name="details">Details</string>
+    <string name="department">Department</string>
+    <string name="branch">Branch</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="user_email">User Email</string>
+    <string name="android_studio_nworkshop_2_1">Android Studio \nWorkshop - 2.1</string>
+    <string name="this_is_a_bullet_point_text">• This is a bullet point text</string>
+    <string name="register_now">Register Now</string>
+    <string name="event_archive">Event Archive</string>
+    <string name="android_studio_nworkshop_1_0">Android Studio \nWorkshop - 1.0</string>
+    <string name="see_event_details">See Event Details</string>
+    <string name="our_community">Our Community</string>
+    <string name="members">Members</string>
+    <string name="projects">Projects</string>
+    <string name="events">Events</string>
+    <string name="explore_more"><![CDATA[Explore More >>>]]></string>
+    <string name="main_fab">Main FAB</string>
+    <string name="add_news">Add News</string>
+    <string name="delete_news">Delete News</string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="profile_completion">Profile Completion</string>
+    <string name="complete_your_profile_to_unlock_all_features">Complete your profile to unlock all features!</string>
+    <string name="academic_information">Academic Information</string>
+    <string name="year_semester">Year/Semester</string>
+    <string name="not_specified">Not Specified</string>
+    <string name="branch_department">Branch/Department</string>
+    <string name="social_links">Social Links</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="github">GitHub</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="achievements">Achievements</string>
+    <string name="preferences">Preferences</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="receive_app_notifications">Receive app notifications</string>
+    <string name="email_updates">Email Updates</string>
+    <string name="receive_email_notifications">Receive email notifications</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="sample_message">Sample message</string>
+    <string name="_03_45_pm">03:45 PM</string>
+    <string name="_10">10</string>
+    <string name="_10_min_ago">10 min ago</string>
+    <string name="here_is_your_question">Here Is your question</string>
+    <string name="mr_team_member">Mr. Team Member</string>
+    <string name="android_iot_lead">Android IoT Lead</string>
+    <string name="description_text_here">Description text here...</string>
+    <string name="android_amp_iot_lead"><![CDATA[Android & IoT Lead]]></string>
+    <string name="_15_may_1_23_am">15 May 1:23 AM</string>
+    <string name="mediatek_anounces_ndimeensity_9300_chipset_nflagshiop_devixces">MediaTek anounces \nDimeensity 9300 chipset\nFlagshiop devixces</string>
+    <string name="_12_mar_2025_10_25_am">12 Mar 2025, 10:25 AM</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="description_here">Description here...</string>
+    <string name="tags">Tags</string>
+    <string name="enter_tags_comma_separated">Enter tags, comma separated</string>
+    <string name="instagram">#instagram</string>
+    <string name="aiotclub">#aiotclub</string>
+    <string name="event_image_desc">event_image_desc</string>
+    <string name="event_description_goes_here">Event description goes here</string>
+    <string name="app_logo">App Logo</string>
+    <string name="android_iot_club"><![CDATA[Android & Iot Club]]></string>
+    <string name="android_amp_iot_club"><![CDATA[Android & IOT Club]]></string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="get_started">Get Started</string>
+    <string name="meet_our_faculty">Meet Our Faculty</string>
+    <string name="avyakt_4_0">Avyakt 4.0</string>
+    <string name="event_presented_by_aiot_club">Event Presented By AIOT Club</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="introduction_to_iot_hardware_basics"><![CDATA[Introduction to IoT & Hardware Basics]]></string>
+    <string name="about_the_workshop">About the Workshop</string>
+    <string name="what_you_ll_gain_practical_iot_skills_android_integration_knowledge_and_a_complete_project_for_your_portfolio">What you\'ll gain: Practical IoT skills, Android integration knowledge, and a complete project for your portfolio.</string>
+    <string name="workshop_schedule">Workshop Schedule</string>
+    <string name="day_1_noctober_22_2025">Day 1\nOctober 22, 2025</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="_6_30pm_8_30pm">6:30PM - 8:30PM</string>
+    <string name="topics_covered">Topics Covered:</string>
+    <string name="introduction_to_internet_of_things_n_hardware_overview_arduino_sensors_n_introduction_to_arduino_uno_n_led_blink_program_explanation_and_demonstration_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Introduction to Internet of Things\n• Hardware Overview(Arduino, Sensors)\n• Introduction to Arduino UNO\n• LED blink program explanation and demonstration\n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="day_2_noctober_23_2025">Day 2\nOctober 23, 2025</string>
+    <string name="hands_on_arduino_projects">Hands-on Arduino Projects</string>
+    <string name="introduction_to_esp32_esp8266_n_wi_fi_microcontrollers_and_iot_architecture_n_iot_cloud_and_dashboard_n_introduction_to_arduino_iot_cloud_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Introduction to ESP32/ESP8266\n• Wi-Fi microcontrollers and IoT architecture\n• IoT Cloud and Dashboard\n• Introduction to Arduino IoT Cloud \n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="advanced_iot_amp_cloud_integration"><![CDATA[Advanced IoT & Cloud Integration]]></string>
+    <string name="join_us_for_an_intensive_3_day_iot_workshop_where_you_ll_learn_to_build_smart_devices_and_integrate_them_with_android_applications_this_hands_on_workshop_covers_everything_from_hardware_basics_to_cloud_deployment">Join us for an intensive 3-day IoT workshop where you\'ll learn to build smart devices and integrate them with Android applications. This hands-on workshop covers everything from hardware basics to cloud deployment.</string>
+    <string name="blink_5_leds_serially_n_distance_measurement_using_ultrasonic_sensor_hc_sr04_n_temperature_amp_humidity_sensor_dht11_n_q_amp_a_and_recap_discussion_and_quiz"><![CDATA[• Blink 5 LEDs Serially\n• Distance Measurement Using Ultrasonic Sensor (HC-SR04)\n• Temperature & Humidity Sensor (DHT11)\n• Q&A and Recap-Discussion and Quiz]]></string>
+    <string name="day_3_noctober_24_2025">Day 3\nOctober 24, 2025</string>
+    <string name="iot_workshop_series">IoT Workshop Series</string>
+    <string name="iot_development_workshop">IOT Development Workshop</string>
+    <string name="learn_to_build_connected_devices_with_nandroid_integration">Learn to build connected devices with\nAndroid integration</string>
+    <string name="date">Date</string>
+    <string name="oct_22_24_2025">Oct 22-24, 2025</string>
+    <string name="duration">Duration</string>
+    <string name="_3_days">3 Days</string>
+    <string name="venue">Venue</string>
+    <string name="mechanical_building">Mechanical Building</string>
+    <string name="_250_students">250 Students</string>
+    <string name="capacity">Capacity</string>
+    <string name="contact_information_n_nworkshop_coordinator_nclub_leader_amp_supervisor_n_nfor_query_n9556775778_sourav_kumar_pati"><![CDATA[Contact information\n\nWorkshop Coordinator \nClub Leader & Supervisor\n\nFor Query \n9556775778(Sourav Kumar Pati)]]></string>
+    <string name="what_to_bring_n_n_laptop_with_arduino_ide_installed_n_usb_cable_for_device_testing_n_notebook_and_pen_for_notes_n_enthusiasm_to_learn">What to Bring\n \n✓ Laptop with Arduino IDE installed\n✓ USB Cable for device testing\n✓ Notebook and pen for notes\n✓ Enthusiasm to learn!</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="workshop_feedback">Workshop Feedback</string>
+    <string name="help_us_improve_by_sharing_your_experience">Help us improve by sharing your experience</string>
+    <string name="enter_your_full_name">Enter Your full name</string>
+    <string name="enter_your_rollno">Enter Your RollNo.</string>
+    <string name="how_would_you_rate_the_content_quality">How would you rate the content quality?</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="average">Average</string>
+    <string name="poor">Poor</string>
+    <string name="how_would_you_rate_the_instructor">How would you rate the instructor?</string>
+    <string name="how_would_you_rate_the_venue_facilities">How would you rate the venue facilities?</string>
+    <string name="which_day_did_you_find_most_valuable">Which day did you find most valuable?</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_2">Day 2</string>
+    <string name="day_3">Day 3</string>
+    <string name="would_you_recommend_this_workshop_to_others">Would you recommend this workshop to others?</string>
+    <string name="yes_definitely">Yes, definitely</string>
+    <string name="maybe">Maybe</string>
+    <string name="no">No</string>
+    <string name="suggestions_for_improvement">Suggestions for Improvement</string>
+    <string name="type_your_suggestions_here">Type your suggestions here</string>
+
+</resources>

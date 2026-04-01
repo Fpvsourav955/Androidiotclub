@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:openDrawer="start"
+    android:layout_marginTop="60dp"
+    android:id="@+id/drawerLayout"
+    tools:context=".EventFragment">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <LinearLayout
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                        <View
+                            android:backgroundTint="@color/Teal"
+                            android:layout_width="60dp"
+                            android:layout_height="6dp"
+                            android:layout_weight="1"
+                            android:background="@color/white"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="16dp"
+                            android:fontFamily="@font/dmsans_black"
+                            android:text="@string/upcoming_events"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="60dp"
+                            android:layout_height="6dp"
+                            android:backgroundTint="@color/Teal"
+                            android:background="@color/white"
+                            android:layout_weight="1"
+                            />
+                </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_height="200dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="6dp"
+                            app:cardElevation="2dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardMaxElevation="12dp"
+                            >
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#F8F7F7">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/upcomingeventimage1"
+                                            android:layout_width="160dp"
+                                            android:layout_height="160dp"
+                                            android:layout_marginStart="16dp"
+                                            android:background="#DDDDDD"
+                                            android:scaleType="fitXY"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.428"
+                                            app:shapeAppearanceOverlay="@style/RoundedImageView"
+                                            tools:ignore="ImageContrastCheck" />
+
+                                        <TextView
+                                            android:id="@+id/upcomingeventTitle1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="8dp"
+                                            android:fontFamily="@font/dmsans_semibold"
+                                            android:text="@string/android_studio_nworkshop_2_1"
+                                            android:textColor="@color/Teal"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+                                            app:layout_constraintBottom_toTopOf="@+id/view2"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.736" />
+
+                                        <View
+                                            android:id="@+id/view2"
+                                            android:layout_width="0dp"
+                                            android:layout_height="3dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="6dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/white"
+                                            android:backgroundTint="@color/Teal"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.544"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.362" />
+
+
+                                        <TextView
+                                            android:id="@+id/bulletText1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="8dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            app:layout_constraintTop_toBottomOf="@+id/view2"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText2222"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText1"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText33"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText2222"
+                                            tools:ignore="SmallSp" />
+
+                                        <androidx.appcompat.widget.AppCompatButton
+                                            android:id="@+id/appCompatButton1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginBottom="12dp"
+                                            android:background="@drawable/register_background"
+                                            android:fontFamily="@font/robot1"
+
+                                            android:gravity="center"
+                                            android:padding="6dp"
+                                            android:text="@string/register_now"
+                                            android:textAlignment="center"
+
+
+                                            android:textAllCaps="false"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage1"
+                                            tools:ignore="TouchTargetSizeCheck" />
+
+                                        <ImageView
+                                            android:id="@+id/imageView3"
+                                            android:layout_width="32dp"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="2dp"
+                                            android:layout_marginBottom="12dp"
+                                            android:importantForAccessibility="no"
+                                            android:src="@drawable/icons8details"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/appCompatButton1" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="18dp"
+                            android:layout_height="200dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="6dp"
+                            app:cardElevation="2dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardMaxElevation="12dp"
+                            >
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#F8F7F7">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/upcomingeventimage"
+                                            android:layout_width="160dp"
+                                            android:layout_height="160dp"
+                                            android:layout_marginStart="16dp"
+                                            android:background="#DDDDDD"
+                                            android:scaleType="fitXY"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.428"
+                                            app:shapeAppearanceOverlay="@style/RoundedImageView"
+                                            tools:ignore="ImageContrastCheck" />
+
+                                        <TextView
+                                            android:id="@+id/upcomingeventTitle"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="8dp"
+                                            android:fontFamily="@font/dmsans_semibold"
+                                            android:text="@string/android_studio_nworkshop_2_1"
+                                            android:textColor="@color/Teal"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+                                            app:layout_constraintBottom_toTopOf="@+id/view"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.736" />
+
+                                        <View
+                                            android:id="@+id/view"
+                                            android:layout_width="0dp"
+                                            android:layout_height="3dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="6dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/white"
+                                            android:backgroundTint="@color/Teal"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.544"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.362" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="8dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/view"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText2"
+                                            tools:ignore="SmallSp" />
+
+                                        <androidx.appcompat.widget.AppCompatButton
+                                            android:id="@+id/appCompatButton"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginBottom="12dp"
+                                            android:background="@drawable/register_background"
+                                            android:fontFamily="@font/robot1"
+
+                                            android:gravity="center"
+                                            android:padding="6dp"
+                                            android:text="@string/register_now"
+                                            android:textAlignment="center"
+
+
+                                            android:textAllCaps="false"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/upcomingeventimage"
+                                            tools:ignore="TouchTargetSizeCheck" />
+
+                                        <ImageView
+                                            android:id="@+id/imageView2"
+                                            android:layout_width="32dp"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="2dp"
+                                            android:layout_marginBottom="12dp"
+                                            android:importantForAccessibility="no"
+                                            android:src="@drawable/icons8details"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/appCompatButton" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <LinearLayout
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                                <View
+                                    android:backgroundTint="@color/Teal"
+                                    android:layout_width="60dp"
+                                    android:layout_height="6dp"
+                                    android:layout_weight="1"
+                                    android:background="@color/white" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="16dp"
+                                    android:fontFamily="@font/dmsans_black"
+                                    android:text="@string/event_archive"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="60dp"
+                                    android:layout_height="6dp"
+                                    android:backgroundTint="@color/Teal"
+                                    android:background="@color/white"
+                                    android:layout_weight="1"
+                                    />
+                        </LinearLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_height="200dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="6dp"
+                            app:cardElevation="2dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardMaxElevation="12dp">
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#F8F7F7">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/archive2eventimage"
+                                            android:layout_width="160dp"
+                                            android:layout_height="160dp"
+                                            android:layout_marginStart="12dp"
+                                            android:background="#DDDDDD"
+                                            android:scaleType="fitXY"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:shapeAppearanceOverlay="@style/RoundedImageView"
+                                            tools:ignore="ImageContrastCheck" />
+
+                                        <TextView
+                                            android:id="@+id/archive2eventTitle"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="8dp"
+                                            android:fontFamily="@font/dmsans_semibold"
+                                            android:text="@string/android_studio_nworkshop_1_0"
+                                            android:textColor="@color/Teal"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+                                            app:layout_constraintBottom_toTopOf="@+id/view3"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.736" />
+
+                                        <View
+                                            android:id="@+id/view3"
+                                            android:layout_width="0dp"
+                                            android:layout_height="3dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="6dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/white"
+                                            android:backgroundTint="@color/Teal"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.544"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.362" />
+                                        <TextView
+                                            android:id="@+id/bulletText222"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="8dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/view3"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText211"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText222"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText344"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText211"
+                                            tools:ignore="SmallSp" />
+
+                                        <androidx.appcompat.widget.AppCompatButton
+                                            android:id="@+id/seeevent1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="2dp"
+                                            android:layout_marginEnd="2dp"
+                                            android:layout_marginBottom="16dp"
+                                            android:background="@drawable/register_background"
+                                            android:fontFamily="@font/robot1"
+                                            android:gravity="center"
+                                            android:padding="6dp"
+                                            android:text="@string/see_event_details"
+                                            android:textAlignment="center"
+                                            android:textAllCaps="false"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.434"
+                                            app:layout_constraintStart_toEndOf="@+id/archive2eventimage"
+                                            tools:ignore="TouchTargetSizeCheck" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="18dp"
+                    android:layout_height="200dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="6dp"
+                            app:cardElevation="2dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardMaxElevation="12dp">
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#F8F7F7">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/archiveeventimage"
+                                            android:layout_width="160dp"
+                                            android:layout_height="160dp"
+                                            android:layout_marginStart="12dp"
+                                            android:background="#DDDDDD"
+                                            android:scaleType="fitXY"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:shapeAppearanceOverlay="@style/RoundedImageView"
+                                            tools:ignore="ImageContrastCheck" />
+
+                                        <TextView
+                                            android:id="@+id/archiveeventTitle"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="8dp"
+                                            android:fontFamily="@font/dmsans_semibold"
+                                            android:text="@string/android_studio_nworkshop_1_0"
+                                            android:textColor="@color/Teal"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+                                            app:layout_constraintBottom_toTopOf="@+id/view1"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.0"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.736" />
+
+                                        <View
+                                            android:id="@+id/view1"
+                                            android:layout_width="0dp"
+                                            android:layout_height="3dp"
+                                            android:layout_marginStart="6dp"
+                                            android:layout_marginEnd="6dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/white"
+                                            android:backgroundTint="@color/Teal"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.544"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintVertical_bias="0.362" />
+                                        <TextView
+                                            android:id="@+id/bulletText22"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="8dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/view1"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText21"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText22"
+                                            tools:ignore="SmallSp" />
+
+                                        <TextView
+                                            android:id="@+id/bulletText34"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="8dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="@string/this_is_a_bullet_point_text"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="10sp"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/bulletText21"
+                                            tools:ignore="SmallSp" />
+
+                                        <androidx.appcompat.widget.AppCompatButton
+                                            android:id="@+id/seeevent"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="34dp"
+                                            android:layout_marginStart="2dp"
+                                            android:layout_marginEnd="2dp"
+                                            android:layout_marginBottom="16dp"
+                                            android:background="@drawable/register_background"
+                                            android:fontFamily="@font/robot1"
+                                            android:gravity="center"
+                                            android:padding="6dp"
+                                            android:text="@string/see_event_details"
+                                            android:textAlignment="center"
+                                            android:textAllCaps="false"
+                                            android:textColor="@color/white"
+                                            android:textSize="14sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintHorizontal_bias="0.434"
+                                            app:layout_constraintStart_toEndOf="@+id/archiveeventimage"
+                                            tools:ignore="TouchTargetSizeCheck" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.cardview.widget.CardView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+        </ScrollView>
+</FrameLayout>

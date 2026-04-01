@@ -1,0 +1,159 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:fitsSystemWindows="true"
+    android:background="@color/babypowder"
+    tools:context=".NewsDetailActivity"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:background="#247B7B"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/devback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="5dp"
+                android:contentDescription="@string/back"
+                android:padding="20dp"
+                app:srcCompat="@drawable/back"
+                app:tint="@android:color/white" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="15dp"
+                android:layout_marginStart="257dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="17dp"
+                android:layout_toEndOf="@+id/devback"
+                android:fontFamily="@font/dmsans_light"
+                android:gravity="center"
+                android:text="@string/news"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:background="@color/babypowder"
+    android:scrollbars="none"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+   >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/dmsans_medium"
+            android:text="@string/hello"
+            android:id="@+id/newsTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <!-- Name -->
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/authorImage"
+            app:civ_border_overlay="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/icons8testaccount96"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="8dp" />
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prashant_kadam"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_marginStart="8dp"
+            android:id="@+id/newsTimestampDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#888888"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/newsImageDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:id="@+id/newsDescriptionDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:fontFamily="@font/dmsans_light"
+            android:maxLines="500"
+            android:overScrollMode="ifContentScrolls"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+            android:lineSpacingExtra="6dp"
+            android:lineSpacingMultiplier="1.0"
+            android:text="@string/paragraph_writing_involves_organizing_a_group_of_related_sentences_to_develop_a_single_idea_or_point_a_paragraph_typically_consists_of_a_topic_sentence_supporting_sentences_and_a_concluding_sentence_effective_paragraph_writing_focuses_on_clarity_coherence_and_unity_ensuring_that_each_sentence_logically_contributes_to_the_overall_meaning_here_s_a_more_detailed_breakdown_structure_topic_sentence_introduces_the_main_idea_or_point_of_the_paragraph_supporting_sentences_provide_details_examples_explanations_or_evidence_that_support_the_topic_sentence_concluding_sentence_summarizes_the_main_point_provides_a_transition_to_the_next_paragraph_or_offers_a_final_thought_key_elements_of_effective_paragraph_writing_clarity_use_simple_language_and_avoid_jargon_or_ambiguity_coherence_ensure_a_smooth_flow_of_ideas_between_sentences_often_using_transition_words_unity_each_sentence_should_directly_relate_to_the_main_topic_and_contribute_to_the_paragraph_s_overall_meaning_development_provide_sufficient_details_and_examples_to_support_your_claims_types_of_paragraphs_expository_explains_a_topic_or_process_descriptive_creates_a_vivid_picture_of_a"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:targetApi="26" />
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

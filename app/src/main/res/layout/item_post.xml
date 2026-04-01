@@ -1,0 +1,208 @@
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icons8testaccount96"
+                app:civ_border_overlay="true" />
+
+            <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/admin_name"
+
+            android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginStart="12dp"
+            android:gravity="top"
+            android:id="@+id/postDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_12_mar_2025_10_25_am"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+
+
+    <LinearLayout
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/likeselector"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/heart_selector"
+        android:clickable="true"/>
+        <TextView
+            android:id="@+id/likecounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="18sp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/dmsans_regular"
+           />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/commentButton"
+        android:layout_width="30dp"
+        android:layout_marginEnd="4dp"
+        android:layout_height="30dp"
+        android:src="@drawable/comments"
+        android:focusable="true"
+        android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/commentcounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="18sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_marginEnd="8dp"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/shareimage"
+            android:focusable="true"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/menudelete"
+        android:layout_marginTop="-32dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icons8menu100"
+        android:layout_gravity="end"
+        />
+
+    <LinearLayout
+        android:background="@color/babypowder"
+        android:id="@+id/commentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/commentRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:nestedScrollingEnabled="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:descendantFocusability="afterDescendants"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/commentEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionSend"
+
+                android:background="@drawable/comment_edit_bg"
+                android:hint="Write a comment..."
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="4"
+                android:minLines="1"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/sendCommentButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/send_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="12dp"
+                android:src="@drawable/send"
+                android:tint="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:id="@+id/postDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dmsans_regular"
+        android:text="@string/description_here"
+        android:textSize="14sp"
+        android:layout_marginTop="6dp" />
+    <TextView
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="@string/aiotclub"
+        android:textColor="#B5B5B5"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

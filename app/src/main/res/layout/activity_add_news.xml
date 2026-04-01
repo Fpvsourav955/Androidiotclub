@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:background="@drawable/member_background"
+    android:layout_height="match_parent"
+    tools:context=".AddNewsActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/member_background"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+
+            android:id="@+id/devback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="@string/back"
+            android:padding="20dp"
+            app:srcCompat="@drawable/back"
+            app:tint="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/devback"
+            android:fontFamily="@font/dmsans_light"
+            android:gravity="start"
+            android:text="@string/news_updates"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/white_cornor_background"
+
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="8dp"
+
+                android:fontFamily="@font/dmsans_regular"
+
+                android:text="@string/title"
+                android:textColor="@color/black" />
+
+
+            <EditText
+                android:id="@+id/newstitle"
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:background="@drawable/edittext_green"
+                android:ems="10"
+                android:hint="@string/enter_news_title"
+                android:inputType="text"
+                android:paddingStart="16dp"
+                android:textColor="@color/babypowder"
+                android:textColorHint="#ffffff"
+                android:textSize="16sp"
+
+                tools:ignore="RtlSymmetry,TextContrastCheck,VisualLintTextFieldSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/dmsans_regular"
+
+                android:text="@string/description"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/newsdescription"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints=""
+                android:background="@drawable/edittext_green"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/enter_details"
+                android:inputType="textMultiLine"
+                android:lines="10"
+                android:maxLines="20"
+                android:padding="16dp"
+                android:scrollbars="vertical"
+
+                android:textColor="@color/babypowder"
+                android:textColorHint="#ffffff"
+                android:textSize="16sp"
+
+                tools:ignore="RtlSymmetry,TextFields,TextContrastCheck,VisualLintTextFieldSize" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/imageNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_file_selected"
+                android:layout_marginStart="32dp"
+                android:textSize="16sp"
+                android:textColor="#333" />
+
+            <!-- ImageButton to trigger image selection -->
+                <ImageButton
+                    android:id="@+id/imageUploadButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/upload_image"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/icons8upload100"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/Upload"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/green_button_background_ripple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/Uploadbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/robot1"
+                    android:text="@string/upload"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

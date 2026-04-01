@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="12dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:id="@+id/eventImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/event_image_desc"
+        android:background="#DDDDDD" />
+
+    <TextView
+        android:fontFamily="@font/dmsans_regular"
+        android:id="@+id/eventText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="@string/event_description_goes_here" />
+</LinearLayout>

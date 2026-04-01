@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/Faculity1"
+            android:title="Faculity"
+            android:icon="@drawable/baseline_person_2_24"/>
+        <item android:id="@+id/Team"
+            android:title="Club Members"
+            android:icon="@drawable/baseline_groups_24"/>
+        <item android:id="@+id/Devteam"
+            android:title="DevTeam"
+            android:icon="@drawable/baseline_code_24"/>
+<!--        <item android:id="@+id/Gallery"-->
+<!--            android:title="Club Gallery"-->
+<!--            android:icon="@drawable/icons8gallery100"/>-->
+
+    </group>
+  <group android:id="@+id/group2">
+      <item android:id="@+id/AboutClub"
+          android:title="About Club"
+          android:icon="@drawable/baseline_info_24"/>
+      <item android:id="@+id/Feedback"
+          android:title="Report Bug"
+          android:icon="@drawable/baseline_bug_report_24"/>
+  </group>
+<group android:id="@+id/group3">
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"/>
+    <item android:id="@+id/contactus"
+        android:title="Contact Us"
+        android:icon="@drawable/contact"/>
+    <item android:id="@+id/terms"
+        android:title="Terms &amp; Conditions"
+        android:icon="@drawable/termsandcondition"/>
+</group>
+
+
+
+
+</menu>
